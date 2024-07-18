@@ -2,7 +2,7 @@
 # Django E-commerce Project
 
 ## Overview
-This project is a fully functional e-commerce website developed using Django. It provides functionalities such as user registration, product management, and data handling through FastAPI.
+This project is a fully functional e-commerce website developed using Django. It provides functionalities such as user registration, product management, and data handling through RestAPI.
 
 ## Features
 - **User Authentication:** Allows users to register, log in, and manage their accounts.
