@@ -7,7 +7,7 @@ This project is a fully functional e-commerce website developed using Django. It
 ## Features
 - **User Authentication:** Allows users to register, log in, and manage their accounts.
 - **Product Management:** CRUD operations for products, including adding, editing, and deleting products.
-- **FastAPI Integration:** Utilizes FastAPI for data insertion and patching in the database.
+- **RestAPI Integration:** Utilizes RestAPI for data insertion and patching in the database.
 - **Search Functionality:** Enables users to search for products based on various criteria.
 - **User Profiles:** Displays user profiles with order history (if implemented).
 - **Frontend:** HTML, CSS, JavaScript for frontend development.
@@ -42,6 +42,6 @@ This project is a fully functional e-commerce website developed using Django. It
 
 ## Usage
 - **Admin Panel:** Access the Django admin panel at http://localhost:8000/admin to manage users, products, and other site content.
-- **API Documentation:** View FastAPI documentation for data handling and management.
+- **API Documentation:** View RestAPI documentation for data handling and management.
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
