@@ -17,6 +17,7 @@ from application.custom_classes import AdminRequiredMixin
 from apps.banner.models import HomeBanner
 from apps.cart.models import Cart
 from apps.category.models import Category
+from apps.healthcare.models import Department
 from apps.product.models import Product
 from apps.store.models import Store
 from apps.vender.models import Vender
@@ -90,6 +91,7 @@ class AdminDashboardView(AdminRequiredMixin, LoginRequiredMixin, View):
         venders_count = Vender.objects.all().count()
         banners_count = HomeBanner.objects.all().count()
         carts_count = Cart.objects.all().count()
+        departments_count = Department.objects.all().count()
         context = {
                     'users_count': users_count,
                     'categorys_count': categorys_count,
@@ -98,6 +100,7 @@ class AdminDashboardView(AdminRequiredMixin, LoginRequiredMixin, View):
                     'venders_count': venders_count,
                     'banners_count': banners_count,
                     'carts_count': carts_count,
+                    'departments_count': departments_count,
                    }
         return render(request, 'administrator/dashboard.html', context)
 

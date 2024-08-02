@@ -61,7 +61,7 @@ DEFAULT_APPS = [
     'apps.vender.apps.VenderConfig',
     'apps.banner.apps.BannerConfig',
     'apps.cart.apps.CartConfig',
-    'import_export',
+    'apps.healthcare.apps.HealthcareConfig',
     'rest_framework',
     #keep below app in last only
     'django_cleanup',
